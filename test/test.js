@@ -12,7 +12,6 @@ describe('isEven', () => {
     isEven(2).should.be.true;
   });
   it('should return false when the number is odd', () => {
-    // isEven(3).should.be.false;
-    expect(isEven(3)).to.be.false;
+    isEven(3).should.be.false;
   });
 });
