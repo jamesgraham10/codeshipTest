@@ -9,7 +9,7 @@ function isEven(num) {
 
 describe('isEven', () => {
   it('should return true when the number is even', () => {
-    isEven(10).should.be.true;
+    isEven(9).should.be.true;
   });
   it('should return false when the number is odd', () => {
     isEven(3).should.be.false;
